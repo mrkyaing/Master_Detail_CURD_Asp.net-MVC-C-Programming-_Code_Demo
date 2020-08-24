@@ -1,0 +1,45 @@
+﻿@model IEnumerable<MasterDetailsDemo.Models.SaleInvoiceHeader>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.Label("Customer Name")
+        </th>
+        <th>
+            @Html.Label("SaleInvoiceHeader Code")
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TotalAmount)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Customer.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Code)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TotalAmount)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.SaleInvoiceHeaderId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.SaleInvoiceHeaderId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.SaleInvoiceHeaderId })
+        </td>
+    </tr>
+}
+
+</table>

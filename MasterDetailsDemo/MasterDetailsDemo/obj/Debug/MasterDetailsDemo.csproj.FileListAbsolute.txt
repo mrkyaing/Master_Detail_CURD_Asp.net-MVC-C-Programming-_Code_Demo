@@ -1,0 +1,184 @@
+D:\TestProject\MasterDetailsDemo\MasterDetailsDemo\bin\roslyn\csc.exe
+D:\TestProject\MasterDetailsDemo\MasterDetailsDemo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\TestProject\MasterDetailsDemo\MasterDetailsDemo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\TestProject\MasterDetailsDemo\MasterDetailsDemo\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\TestProject\MasterDetailsDemo\MasterDetailsDemo\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\TestProject\MasterDetailsDemo\MasterDetailsDemo\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\TestProject\MasterDetailsDemo\MasterDetailsDemo\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\TestProject\MasterDetailsDemo\MasterDetailsDemo\bin\roslyn\System.Collections.Immutable.dll
+D:\TestProject\MasterDetailsDemo\MasterDetailsDemo\bin\roslyn\System.Reflection.Metadata.dll
+D:\TestProject\MasterDetailsDemo\MasterDetailsDemo\bin\roslyn\vbc.exe
+D:\TestProject\MasterDetailsDemo\MasterDetailsDemo\bin\roslyn\VBCSCompiler.exe
+D:\TestProject\MasterDetailsDemo\MasterDetailsDemo\bin\roslyn\VBCSCompiler.exe.config
+D:\TestProject\MasterDetailsDemo\MasterDetailsDemo\bin\MasterDetailsDemo.dll.config
+D:\TestProject\MasterDetailsDemo\MasterDetailsDemo\bin\MasterDetailsDemo.dll
+D:\TestProject\MasterDetailsDemo\MasterDetailsDemo\bin\MasterDetailsDemo.pdb
+D:\TestProject\MasterDetailsDemo\MasterDetailsDemo\bin\Antlr3.Runtime.dll
+D:\TestProject\MasterDetailsDemo\MasterDetailsDemo\bin\EntityFramework.dll
+D:\TestProject\MasterDetailsDemo\MasterDetailsDemo\bin\EntityFramework.SqlServer.dll
+D:\TestProject\MasterDetailsDemo\MasterDetailsDemo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\TestProject\MasterDetailsDemo\MasterDetailsDemo\bin\Microsoft.Web.Infrastructure.dll
+D:\TestProject\MasterDetailsDemo\MasterDetailsDemo\bin\Newtonsoft.Json.dll
+D:\TestProject\MasterDetailsDemo\MasterDetailsDemo\bin\System.Web.Helpers.dll
+D:\TestProject\MasterDetailsDemo\MasterDetailsDemo\bin\System.Web.Mvc.dll
+D:\TestProject\MasterDetailsDemo\MasterDetailsDemo\bin\System.Web.Optimization.dll
+D:\TestProject\MasterDetailsDemo\MasterDetailsDemo\bin\System.Web.Razor.dll
+D:\TestProject\MasterDetailsDemo\MasterDetailsDemo\bin\System.Web.WebPages.Deployment.dll
+D:\TestProject\MasterDetailsDemo\MasterDetailsDemo\bin\System.Web.WebPages.dll
+D:\TestProject\MasterDetailsDemo\MasterDetailsDemo\bin\System.Web.WebPages.Razor.dll
+D:\TestProject\MasterDetailsDemo\MasterDetailsDemo\bin\WebGrease.dll
+D:\TestProject\MasterDetailsDemo\MasterDetailsDemo\bin\EntityFramework.xml
+D:\TestProject\MasterDetailsDemo\MasterDetailsDemo\bin\EntityFramework.SqlServer.xml
+D:\TestProject\MasterDetailsDemo\MasterDetailsDemo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\TestProject\MasterDetailsDemo\MasterDetailsDemo\bin\System.Web.Helpers.xml
+D:\TestProject\MasterDetailsDemo\MasterDetailsDemo\bin\System.Web.Mvc.xml
+D:\TestProject\MasterDetailsDemo\MasterDetailsDemo\bin\System.Web.Optimization.xml
+D:\TestProject\MasterDetailsDemo\MasterDetailsDemo\bin\System.Web.Razor.xml
+D:\TestProject\MasterDetailsDemo\MasterDetailsDemo\bin\System.Web.WebPages.xml
+D:\TestProject\MasterDetailsDemo\MasterDetailsDemo\bin\System.Web.WebPages.Deployment.xml
+D:\TestProject\MasterDetailsDemo\MasterDetailsDemo\bin\System.Web.WebPages.Razor.xml
+D:\TestProject\MasterDetailsDemo\MasterDetailsDemo\bin\Antlr3.Runtime.pdb
+D:\TestProject\MasterDetailsDemo\MasterDetailsDemo\bin\Newtonsoft.Json.xml
+D:\TestProject\MasterDetailsDemo\MasterDetailsDemo\obj\Debug\MasterDetailsDemo.dll
+D:\TestProject\MasterDetailsDemo\MasterDetailsDemo\obj\Debug\MasterDetailsDemo.pdb
+D:\TestProject\MasterDetailsDemo\MasterDetailsDemo\obj\Debug\MasterDetailsDemo.Migrations.ChangeIdName.resources
+D:\TestProject\MasterDetailsDemo\MasterDetailsDemo\obj\Debug\MasterDetailsDemo.csproj.GenerateResource.Cache
+D:\TestProject\MasterDetailsDemo\MasterDetailsDemo\obj\Debug\MasterDetailsDemo.csprojResolveAssemblyReference.cache
+E:\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\roslyn\csc.exe
+E:\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\roslyn\System.Collections.Immutable.dll
+E:\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\roslyn\System.Reflection.Metadata.dll
+E:\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\roslyn\vbc.exe
+E:\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\roslyn\VBCSCompiler.exe
+E:\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\roslyn\VBCSCompiler.exe.config
+E:\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\MasterDetailsDemo.dll.config
+E:\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\MasterDetailsDemo.dll
+E:\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\MasterDetailsDemo.pdb
+E:\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\Antlr3.Runtime.dll
+E:\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\EntityFramework.dll
+E:\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\EntityFramework.SqlServer.dll
+E:\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\Microsoft.Web.Infrastructure.dll
+E:\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\Newtonsoft.Json.dll
+E:\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\System.Web.Helpers.dll
+E:\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\System.Web.Mvc.dll
+E:\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\System.Web.Optimization.dll
+E:\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\System.Web.Razor.dll
+E:\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\System.Web.WebPages.Deployment.dll
+E:\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\System.Web.WebPages.dll
+E:\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\System.Web.WebPages.Razor.dll
+E:\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\WebGrease.dll
+E:\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\EntityFramework.xml
+E:\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\EntityFramework.SqlServer.xml
+E:\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\System.Web.Helpers.xml
+E:\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\System.Web.Mvc.xml
+E:\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\System.Web.Optimization.xml
+E:\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\System.Web.Razor.xml
+E:\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\System.Web.WebPages.xml
+E:\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\System.Web.WebPages.Deployment.xml
+E:\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\System.Web.WebPages.Razor.xml
+E:\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\Antlr3.Runtime.pdb
+E:\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\Newtonsoft.Json.xml
+E:\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\obj\Debug\MasterDetailsDemo.csprojResolveAssemblyReference.cache
+E:\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\obj\Debug\MasterDetailsDemo.Migrations.ChangeIdName.resources
+E:\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\obj\Debug\MasterDetailsDemo.csproj.GenerateResource.Cache
+E:\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\obj\Debug\MasterDetailsDemo.dll
+E:\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\obj\Debug\MasterDetailsDemo.pdb
+D:\PN\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\roslyn\csc.exe
+D:\PN\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\PN\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\PN\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\PN\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\PN\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\PN\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\PN\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\roslyn\System.Collections.Immutable.dll
+D:\PN\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\roslyn\System.Reflection.Metadata.dll
+D:\PN\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\roslyn\vbc.exe
+D:\PN\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\roslyn\VBCSCompiler.exe
+D:\PN\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\roslyn\VBCSCompiler.exe.config
+D:\PN\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\MasterDetailsDemo.dll.config
+D:\PN\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\MasterDetailsDemo.dll
+D:\PN\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\MasterDetailsDemo.pdb
+D:\PN\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\Antlr3.Runtime.dll
+D:\PN\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\EntityFramework.dll
+D:\PN\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\EntityFramework.SqlServer.dll
+D:\PN\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\PN\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\Microsoft.Web.Infrastructure.dll
+D:\PN\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\Newtonsoft.Json.dll
+D:\PN\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\System.Web.Helpers.dll
+D:\PN\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\System.Web.Mvc.dll
+D:\PN\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\System.Web.Optimization.dll
+D:\PN\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\System.Web.Razor.dll
+D:\PN\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\System.Web.WebPages.Deployment.dll
+D:\PN\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\System.Web.WebPages.dll
+D:\PN\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\System.Web.WebPages.Razor.dll
+D:\PN\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\WebGrease.dll
+D:\PN\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\EntityFramework.xml
+D:\PN\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\EntityFramework.SqlServer.xml
+D:\PN\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\PN\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\System.Web.Helpers.xml
+D:\PN\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\System.Web.Mvc.xml
+D:\PN\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\System.Web.Optimization.xml
+D:\PN\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\System.Web.Razor.xml
+D:\PN\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\System.Web.WebPages.xml
+D:\PN\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\System.Web.WebPages.Deployment.xml
+D:\PN\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\System.Web.WebPages.Razor.xml
+D:\PN\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\Antlr3.Runtime.pdb
+D:\PN\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\bin\Newtonsoft.Json.xml
+D:\PN\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\obj\Debug\MasterDetailsDemo.csprojResolveAssemblyReference.cache
+D:\PN\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\obj\Debug\MasterDetailsDemo.Migrations.ChangeIdName.resources
+D:\PN\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\obj\Debug\MasterDetailsDemo.csproj.GenerateResource.Cache
+D:\PN\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\obj\Debug\MasterDetailsDemo.dll
+D:\PN\PNTestProject\MasterDetailsDemo\MasterDetailsDemo\obj\Debug\MasterDetailsDemo.pdb
+D:\_Restarant Management System\01 Project Source\V0.0.2\OJT Assign Submit\MasterDetailsDemo\MasterDetailsDemo\bin\roslyn\csc.exe
+D:\_Restarant Management System\01 Project Source\V0.0.2\OJT Assign Submit\MasterDetailsDemo\MasterDetailsDemo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\_Restarant Management System\01 Project Source\V0.0.2\OJT Assign Submit\MasterDetailsDemo\MasterDetailsDemo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\_Restarant Management System\01 Project Source\V0.0.2\OJT Assign Submit\MasterDetailsDemo\MasterDetailsDemo\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\_Restarant Management System\01 Project Source\V0.0.2\OJT Assign Submit\MasterDetailsDemo\MasterDetailsDemo\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\_Restarant Management System\01 Project Source\V0.0.2\OJT Assign Submit\MasterDetailsDemo\MasterDetailsDemo\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\_Restarant Management System\01 Project Source\V0.0.2\OJT Assign Submit\MasterDetailsDemo\MasterDetailsDemo\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\_Restarant Management System\01 Project Source\V0.0.2\OJT Assign Submit\MasterDetailsDemo\MasterDetailsDemo\bin\roslyn\System.Collections.Immutable.dll
+D:\_Restarant Management System\01 Project Source\V0.0.2\OJT Assign Submit\MasterDetailsDemo\MasterDetailsDemo\bin\roslyn\System.Reflection.Metadata.dll
+D:\_Restarant Management System\01 Project Source\V0.0.2\OJT Assign Submit\MasterDetailsDemo\MasterDetailsDemo\bin\roslyn\vbc.exe
+D:\_Restarant Management System\01 Project Source\V0.0.2\OJT Assign Submit\MasterDetailsDemo\MasterDetailsDemo\bin\roslyn\VBCSCompiler.exe
+D:\_Restarant Management System\01 Project Source\V0.0.2\OJT Assign Submit\MasterDetailsDemo\MasterDetailsDemo\bin\roslyn\VBCSCompiler.exe.config
+D:\_Restarant Management System\01 Project Source\V0.0.2\OJT Assign Submit\MasterDetailsDemo\MasterDetailsDemo\bin\MasterDetailsDemo.dll.config
+D:\_Restarant Management System\01 Project Source\V0.0.2\OJT Assign Submit\MasterDetailsDemo\MasterDetailsDemo\bin\MasterDetailsDemo.dll
+D:\_Restarant Management System\01 Project Source\V0.0.2\OJT Assign Submit\MasterDetailsDemo\MasterDetailsDemo\bin\MasterDetailsDemo.pdb
+D:\_Restarant Management System\01 Project Source\V0.0.2\OJT Assign Submit\MasterDetailsDemo\MasterDetailsDemo\bin\Antlr3.Runtime.dll
+D:\_Restarant Management System\01 Project Source\V0.0.2\OJT Assign Submit\MasterDetailsDemo\MasterDetailsDemo\bin\EntityFramework.dll
+D:\_Restarant Management System\01 Project Source\V0.0.2\OJT Assign Submit\MasterDetailsDemo\MasterDetailsDemo\bin\EntityFramework.SqlServer.dll
+D:\_Restarant Management System\01 Project Source\V0.0.2\OJT Assign Submit\MasterDetailsDemo\MasterDetailsDemo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\_Restarant Management System\01 Project Source\V0.0.2\OJT Assign Submit\MasterDetailsDemo\MasterDetailsDemo\bin\Microsoft.Web.Infrastructure.dll
+D:\_Restarant Management System\01 Project Source\V0.0.2\OJT Assign Submit\MasterDetailsDemo\MasterDetailsDemo\bin\Newtonsoft.Json.dll
+D:\_Restarant Management System\01 Project Source\V0.0.2\OJT Assign Submit\MasterDetailsDemo\MasterDetailsDemo\bin\System.Web.Helpers.dll
+D:\_Restarant Management System\01 Project Source\V0.0.2\OJT Assign Submit\MasterDetailsDemo\MasterDetailsDemo\bin\System.Web.Mvc.dll
+D:\_Restarant Management System\01 Project Source\V0.0.2\OJT Assign Submit\MasterDetailsDemo\MasterDetailsDemo\bin\System.Web.Optimization.dll
+D:\_Restarant Management System\01 Project Source\V0.0.2\OJT Assign Submit\MasterDetailsDemo\MasterDetailsDemo\bin\System.Web.Razor.dll
+D:\_Restarant Management System\01 Project Source\V0.0.2\OJT Assign Submit\MasterDetailsDemo\MasterDetailsDemo\bin\System.Web.WebPages.Deployment.dll
+D:\_Restarant Management System\01 Project Source\V0.0.2\OJT Assign Submit\MasterDetailsDemo\MasterDetailsDemo\bin\System.Web.WebPages.dll
+D:\_Restarant Management System\01 Project Source\V0.0.2\OJT Assign Submit\MasterDetailsDemo\MasterDetailsDemo\bin\System.Web.WebPages.Razor.dll
+D:\_Restarant Management System\01 Project Source\V0.0.2\OJT Assign Submit\MasterDetailsDemo\MasterDetailsDemo\bin\WebGrease.dll
+D:\_Restarant Management System\01 Project Source\V0.0.2\OJT Assign Submit\MasterDetailsDemo\MasterDetailsDemo\bin\EntityFramework.xml
+D:\_Restarant Management System\01 Project Source\V0.0.2\OJT Assign Submit\MasterDetailsDemo\MasterDetailsDemo\bin\EntityFramework.SqlServer.xml
+D:\_Restarant Management System\01 Project Source\V0.0.2\OJT Assign Submit\MasterDetailsDemo\MasterDetailsDemo\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\_Restarant Management System\01 Project Source\V0.0.2\OJT Assign Submit\MasterDetailsDemo\MasterDetailsDemo\bin\System.Web.Helpers.xml
+D:\_Restarant Management System\01 Project Source\V0.0.2\OJT Assign Submit\MasterDetailsDemo\MasterDetailsDemo\bin\System.Web.Mvc.xml
+D:\_Restarant Management System\01 Project Source\V0.0.2\OJT Assign Submit\MasterDetailsDemo\MasterDetailsDemo\bin\System.Web.Optimization.xml
+D:\_Restarant Management System\01 Project Source\V0.0.2\OJT Assign Submit\MasterDetailsDemo\MasterDetailsDemo\bin\System.Web.Razor.xml
+D:\_Restarant Management System\01 Project Source\V0.0.2\OJT Assign Submit\MasterDetailsDemo\MasterDetailsDemo\bin\System.Web.WebPages.xml
+D:\_Restarant Management System\01 Project Source\V0.0.2\OJT Assign Submit\MasterDetailsDemo\MasterDetailsDemo\bin\System.Web.WebPages.Deployment.xml
+D:\_Restarant Management System\01 Project Source\V0.0.2\OJT Assign Submit\MasterDetailsDemo\MasterDetailsDemo\bin\System.Web.WebPages.Razor.xml
+D:\_Restarant Management System\01 Project Source\V0.0.2\OJT Assign Submit\MasterDetailsDemo\MasterDetailsDemo\bin\Antlr3.Runtime.pdb
+D:\_Restarant Management System\01 Project Source\V0.0.2\OJT Assign Submit\MasterDetailsDemo\MasterDetailsDemo\bin\Newtonsoft.Json.xml
+D:\_Restarant Management System\01 Project Source\V0.0.2\OJT Assign Submit\MasterDetailsDemo\MasterDetailsDemo\obj\Debug\MasterDetailsDemo.csprojResolveAssemblyReference.cache
+D:\_Restarant Management System\01 Project Source\V0.0.2\OJT Assign Submit\MasterDetailsDemo\MasterDetailsDemo\obj\Debug\MasterDetailsDemo.dll
+D:\_Restarant Management System\01 Project Source\V0.0.2\OJT Assign Submit\MasterDetailsDemo\MasterDetailsDemo\obj\Debug\MasterDetailsDemo.pdb
+D:\_Restarant Management System\01 Project Source\V0.0.2\OJT Assign Submit\MasterDetailsDemo\MasterDetailsDemo\obj\Debug\MasterDetailsDemo.Migrations.ok.resources
+D:\_Restarant Management System\01 Project Source\V0.0.2\OJT Assign Submit\MasterDetailsDemo\MasterDetailsDemo\obj\Debug\MasterDetailsDemo.csproj.GenerateResource.Cache

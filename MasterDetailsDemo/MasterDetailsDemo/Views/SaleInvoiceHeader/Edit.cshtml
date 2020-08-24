@@ -1,0 +1,433 @@
+﻿@model MasterDetailsDemo.ViewModel.SaleInvoiceHeaderVM
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<header>
+    <script type="text/javascript" src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <style type="text/css">
+        /*Adding some css for looks good*/
+        span.error {
+            display: block;
+            visibility: hidden;
+            color: red;
+            font-size: 90%;
+        }
+
+
+        /*css for table*/
+        .container td {
+            vertical-align: top;
+        }
+
+        .tablecontainer table {
+            width: 100%;
+            border-collapse: collapse;
+            border-top: 1px solid #BFAEAE;
+            border-right: 1px solid #BFAEAE;
+        }
+
+        .tablecontainer th {
+            border-bottom: 2px solid #BFAEAE !important;
+        }
+
+        .tablecontainer th, .tablecontainer td {
+            text-align: left;
+            border-left: 1px solid #BFAEAE;
+            padding: 5px;
+            border-bottom: 1px solid #BFAEAE;
+        }
+
+        .ui-widget {
+            font-size: 12px !important;
+        }
+    </style>
+</header>
+
+<h2>Master Detail Edit Form</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <fieldset id="SaleInvoiceHeader">
+        <div class="form-horizontal">
+            <h3>SaleInvoiceHeader</h3>
+            @Html.HiddenFor(model => model.SaleInvoiceHeaderId)
+            <table class="table table-responsive">
+                <tr>
+                    <td>
+                        @Html.LabelFor(model => model.Code, htmlAttributes: new { @class = "control-label col-md-2" })
+                    </td>
+                    <td>
+                        @Html.EditorFor(model => model.Code, new { htmlAttributes = new { @class = "form-control" } })
+                        <span class="error">Please write Code No</span>
+                    </td>
+                    <td>
+                        @Html.LabelFor(model => model.CustomerId, "CustomerId", htmlAttributes: new { @class = "control-label col-md-2" })
+                    </td>
+                    <td>
+                        @Html.DropDownList("CustomerId", null, "Select Customer", htmlAttributes: new { @class = "form-control" })
+                        <span class="error">Select Customer Name</span>
+                    </td>
+                    <td>
+                        @Html.LabelFor(model => model.TotalAmount, htmlAttributes: new { @class = "control-label col-md-2" })
+                    </td>
+                    <td>
+                        @Html.EditorFor(model => model.TotalAmount, new { htmlAttributes = new { @class = "form-control", @readonly = "true" } })
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </fieldset>
+
+    /**<fieldset id="SaleInvoiceHeader">
+
+        <div class="form-horizontal">
+            <h4>SaleInvoiceHeader</h4>
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            @Html.HiddenFor(model => model.SaleInvoiceHeaderId)
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.CustomerId, "CustomerId", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.DropDownList("CustomerId", null,"Select Customer", htmlAttributes: new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.CustomerId, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Code, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Code, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Code, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.TotalAmount, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.TotalAmount, new { htmlAttributes = new { @class = "form-control", @readonly="true" } })
+                    @Html.ValidationMessageFor(model => model.TotalAmount, "", new { @class = "text-danger" })
+                </div>
+            </div>
+        </div>
+
+    </fieldset>**/
+
+    <div class="form-horizontal">
+        <h3>Items</h3>
+        <hr />
+        <div class="form-group">
+            @Html.Label("product", "Product", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("ProductId", null, "Select Product", htmlAttributes: new { @id = "product", @class = "form-control" })
+                <span class="error">Please Select product</span>
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.Label("Price", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBox("Price", "", htmlAttributes: new { @id = "price", @class = "form-control", @disabled = "disabled" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.Label("Quantity", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBox("quantity", "", htmlAttributes: new { @class = "form-control" })
+                <span class="error">Valid Quantity is required</span>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="button" id="btnAdd" value="add" class="btn btn-success" />
+            </div>
+
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <div id="orderItems" class="tablecontainer">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="button" id="btnUpdate" value="Update Order" class="btn btn-success" />
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    </div>
+
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script type="text/javascript">
+
+        var orderItems = [];
+        var TotalAmount = @Model.TotalAmount;
+        var selectedIndex;
+        var EditData = @Html.Raw(Json.Encode(Model.saleInvoiceItemVMs));
+
+        $(document).ready(function () {
+
+            if(EditData != null){
+                orderItems = EditData;
+                GeneratedItemsTable();
+            }
+
+            $("#product").change(function () {
+                var selProduct = $(this).val();
+                if (selProduct == "") {
+                    $('#price').val('');
+                }
+                else {
+                    $.ajax({
+                        type: "GET",
+                        url: "/Product/GetPrice?Id=" + selProduct,
+                        contentType: 'application/json; charset=utf-8',
+                        dataType: 'json',
+                        cache: false,
+                        success: function (price) {
+                            $('#price').val(price)
+                        },
+                        error: function (xhr, status, error) {
+                            alert(xhr.responseText);
+                        }
+                    });
+                }
+            });
+
+            $('#btnAdd').click(function () {
+                var btnTxt = $(this).val();
+
+                //Check validation of order item
+                var isValidItem = true;
+
+                if ($('#product').val().trim() == '') {
+                    isValidItem = false;
+                    $('#product').siblings('span.error').css('visibility', 'visible');
+                }
+                else {
+                    $('#product').siblings('span.error').css('visibility', 'hidden');
+                }
+
+                if (!($('#quantity').val().trim() != '' && !isNaN($('#quantity').val().trim()))) {
+                    isValidItem = false;
+                    $('#quantity').siblings('span.error').css('visibility', 'visible');
+                }
+                else {
+                    $('#quantity').siblings('span.error').css('visibility', 'hidden');
+                }
+
+                if (!($('#price').val().trim() != '' && !isNaN($('#price').val().trim()))) {
+                    isValidItem = false;
+                    $('#price').siblings('span.error').css('visibility', 'visible');
+                }
+                else {
+                    $('#price').siblings('span.error').css('visibility', 'hidden');
+                }
+
+                if (orderItems.length != 0 && isValidItem == true) {
+                    var productId = $('#product').val();
+                    var quantity = $('#quantity').val();
+                    $.each(orderItems, function (i, val) {
+                        if (val.ProductId == productId && val.Quantity == quantity && btnTxt == 'update') {
+                            alert('This item and quantity have already been.');
+                            isValidItem = false;
+                            //Clear fields
+                            $('#product').val('').focus();
+                            $('#quantity,#price').val('');
+                            $('#btnAdd').val('add');
+                            selectedIndex = -1;
+                        }
+                        else if (val.ProductId == productId && (btnTxt == 'add' || val.Index != selectedIndex)) {
+                            alert('This item has already been.');
+                            isValidItem = false;
+                            //Clear fields
+                            $('#product').val('').focus();
+                            $('#quantity,#price').val('');
+                            $('#btnAdd').val('add');
+                            selectedIndex = -1;
+                        }
+                    });
+
+                }
+
+                if (isValidItem) {
+                    //Add item to list if valid
+                    if (btnTxt == 'add') {
+                        orderItems.push({
+                            Index: orderItems.length,
+                            ProductId: $('#product').val().trim(),
+                            ProductName: $('#product :selected').text().trim(),
+                            Quantity: parseInt($('#quantity').val().trim()),
+                            Price: parseFloat($('#price').val().trim()),
+                            Amount: parseInt($('#quantity').val().trim()) * parseFloat($('#price').val().trim())
+                        });
+                    }
+                    else if (btnTxt == 'update') {
+                        $.each(orderItems, function (i, val) {
+                            if (val.Index == selectedIndex) {
+                                TotalAmount -= val.Amount;
+                                val.ProductId = $('#product').val().trim();
+                                val.Product = $('#product :selected').text().trim();
+                                val.Quantity = parseInt($('#quantity').val().trim());
+                                val.Price = parseFloat($('#price').val().trim());
+                                val.Amount = parseInt($('#quantity').val().trim()) * parseFloat($('#price').val().trim());
+                                $('#btnAdd').val('add');
+                                selectedIndex = -1;
+                            }
+                        });
+                    }
+                    var quantity = parseInt($('#quantity').val().trim());
+                    var price = parseFloat($('#price').val().trim());
+                    var amount = price * quantity;
+                    TotalAmount += amount;
+
+                    //populate order items
+                    GeneratedItemsTable();
+
+                    //Clear fields
+                    $('#product').val('').focus();
+                    $('#quantity,#price').val('');
+                }
+
+            });
+
+            //Save button click function
+            $('#btnUpdate').click(function () {
+                //validation of order
+                var isAllValid = true;
+
+                if (orderItems.length == 0) {
+                    $('#orderItems').html('<span style="color:red;">Please add order items</span>');
+                    isAllValid = false;
+                }
+
+                if ($('#Code').val().trim() == '') {
+                    $('#Code').siblings('span.error').css('visibility', 'visible');
+                    isAllValid = false;
+                }
+                else {
+                    $('#Code').siblings('span.error').css('visibility', 'hidden');
+                }
+
+                if ($('#CustomerId').val().trim() == '') {
+                    $('#CustomerId').siblings('span.error').css('visibility', 'visible');
+                    isAllValid = false;
+                }
+                else {
+                    $('#CustomerId').siblings('span.error').css('visibility', 'hidden');
+                }
+
+                //Save if valid
+                if (isAllValid) {
+                    var SaleInvoiceHeader = $('#SaleInvoiceHeader').serialize();
+                    $('#btnUpdate').val('Please wait...');
+
+                    $.ajax({
+                        url: "/SaleInvoiceHeader/Edit",
+                        type: "Post",
+                        data: SaleInvoiceHeader + " &&saleInvoiceItem=" + JSON.stringify(orderItems),
+                        dataType: 'json',
+                        cache: false,
+                        success: function (d) {
+                            //check is successfully save to database
+                            if (d == "success") {
+                                //will send status from server side
+                                alert('Successfully update.');
+                                window.location = '/SaleInvoiceHeader/Index';
+                                //clear form
+                                orderItems = [];
+                                $('#Code').val('');
+                                $('#CustomerId').val('');
+                                $('#TotalAmount').val('');
+                                $('#orderItems').empty();
+                                $('#btnUpdate').val('Update Order');
+                            }
+                            else {
+                                alert('Failed to Update');
+                                $('#btnUpdate').val('Update');
+                            }
+                        },
+                        error: function () {
+                            alert('Error. Please try again.');
+                            $('#btnUpdate').val('Update');
+                        }
+                    });
+                }
+
+            });
+
+        });
+
+        function GeneratedItemsTable() {
+
+            if (orderItems.length > 0) {
+                var $table = $('<table/>');
+                var $tbody = $('<tbody/>');
+                var $tfoot = $('<tfoot/>');
+
+                $table.append('<thead><tr><th>No</th><th>Product</th><th>Quantity</th><th>Price</th><th>Total</th><th></th></tr></thead>');
+
+                $.each(orderItems, function (i, val) {
+
+                    var $row = $('<tr/>');
+                    $row.append($('<td/>').html(i + 1));
+                    $row.append($('<td/>').html(val.ProductName));
+                    $row.append($('<td/>').html(val.Quantity));
+                    $row.append($('<td/>').html(val.Price));
+                    $row.append($('<td/>').html(val.Amount));
+                    $row.append($('<td/>').html('<input type="button" class="btn btn-primary" value="Edit" onclick="Edit(' + val.Index + ')" /> &nbsp;<input type="button" class="btn btn-danger" value="Remove" onclick="Remove(' + val.Index + ')"/>'));
+
+                    $tbody.append($row);
+                });
+                $table.append($tbody);
+
+                $table.append('<tfoot><tr><td colspan="4">Total Amount</td><td colspan="2">' + TotalAmount + '</td></tr></tfoot>');
+
+                $('#orderItems').html($table);
+                $("#TotalAmount").val(TotalAmount);
+            }
+            else {
+                $('#orderItems').html('');
+                orderItems = [];
+                $("#TotalAmount").val('');
+                $('#btnAdd').val('add');
+            }
+        }
+
+        function Edit(index) {
+            var ProductId, Product, Price, Quantity;
+            $.each(orderItems, function (i, val) {
+                if (val.Index == index) {
+                    ProductId = val.ProductId;
+                    Price = val.Price;
+                    Quantity = val.Quantity;
+                }
+
+            });
+            $('#product').val(ProductId);
+            $('#price').val(Price);
+            $('#quantity').val(Quantity);
+            $('#btnAdd').val('update');
+            selectedIndex = index;
+        }
+
+        function Remove(index) {
+            $.each(orderItems, function (i, val) {
+                if (index > -1 && index == val.Index && selectedIndex != index) {
+                    TotalAmount -= val.Amount;
+                    orderItems.splice(i, 1);
+                    GeneratedItemsTable();
+                }
+            });
+        }
+
+    </script>
+}
